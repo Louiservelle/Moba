@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  /* Styles for Connexion page */
+  .form-container {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+.container{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #3071a9;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Styles for Profile page */
+  .profile-container {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for Classement page */
+  .classement-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .classement-table th,
+  .classement-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .classement-table th {
+    background-color: #428bca;
+    color: #fff;
+  }
+  
+  .classement-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .classement-table tr:hover {
+    background-color: #ddd;
+  }
+  
